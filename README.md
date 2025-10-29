@@ -45,3 +45,13 @@ The main application, Instarchive, should work as easily as:
 
 Regarding step 3, OCR doesn't require AI. Transcription is better done with Whisper (unfortunately),
 same for image descriptions. We'll probably leave it for later and focus on OCR. 
+
+## Challenges
+
+- [Meta has deprecated the Basic Display API](https://developers.facebook.com/blog/post/2024/09/04/update-on-instagram-basic-display-api/) 
+for Instagram, which means consumer apps will no longer work for users 
+without a Business or Professional account. This is a bummer.
+
+- Doing scraping is a bit intensive and trying to analyse the HTML is very burdensome and difficult. 
+
+- I also don't want my account to be banned due to ToS infringement. 
